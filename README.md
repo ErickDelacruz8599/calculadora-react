@@ -1,16 +1,96 @@
-# React + Vite
+# Calculadora React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **calculadora web simple** desarrollada con **React** utilizando **Vite** como herramienta de desarrollo. Fue creada como proyecto práctico para aplicar conceptos fundamentales de React como **componentes, estado (useState), eventos y manejo del teclado**.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Interfaz moderna con **CSS Grid**
+* Operaciones matemáticas básicas:
 
-## React Compiler
+  * Suma (+)
+  * Resta (-)
+  * Multiplicación (*)
+  * División (/)
+* Botón para **limpiar la pantalla**
+* Botón para **calcular el resultado**
+* **Soporte para teclado**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Números (0-9)
+  * Operadores (+ - * /)
+  * `Enter` para calcular
+  * `Backspace` para borrar
+  * `Escape` para limpiar
+* Arquitectura basada en **componentes reutilizables**
 
-## Expanding the ESLint configuration
+## Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+calculadora-react
+│
+├── src
+│   ├── components
+│   │   ├── Button.jsx
+│   │   └── Display.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── public
+├── package.json
+└── vite.config.js
+```
+
+## Tecnologías utilizadas
+
+* **React**
+* **Vite**
+* **JavaScript**
+* **CSS**
+* **HTML**
+
+## Instalación y ejecución
+
+1. Clonar el repositorio
+
+```
+git clone https://github.com/tu-usuario/calculadora-react.git
+```
+
+2. Entrar al proyecto
+
+```
+cd calculadora-react
+```
+
+3. Instalar dependencias
+
+```
+npm install
+```
+
+4. Ejecutar el proyecto
+
+```
+npm run dev
+```
+
+5. Abrir en el navegador
+
+```
+http://localhost:5173
+```
+
+## Objetivo del proyecto
+
+El objetivo de este proyecto es **practicar el desarrollo de interfaces interactivas con React**, aplicando conceptos como:
+
+* Componentización
+* Manejo de estado
+* Eventos en React
+* Organización de proyectos frontend
+
+## Autor
+
+Proyecto desarrollado por **Erick de la Cruz**.
+
